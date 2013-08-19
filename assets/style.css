@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Yesteryear); /*font choice 1  :   font-family: "Yesteryear", sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans); /*font choice 2 : font-family: "Open Sans", sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Wire+One); /*font choice 3 : font-family: "Wire One", sans-serif;*/
+
+html, body {
+	background: #6E7E94;
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+.loading {
+	width: 960px;
+	margin: 100px auto;
+}
+
+.loading p{
+	width: 110px;
+	margin: 0 auto;
+	font-family: "Wire One", sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+
+/*container */
+
+.container {
+	width: 960px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 0;
+	display: none;
+}
+
+
+/*header*/
+
+.header {
+	height: 120px;
+	width: 100%;
+}
+
+.header > .textlogo {
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 30px;
+	width: 300px;
+}
+
+.header > .textlogo > p {
+	text-decoration: none;
+	font-family: "Yesteryear", sans-serif;
+	font-size: 230%;
+	color: #555;
+	visibility: hidden;
+}
+
+.header > .texttitle {
+	float: right;
+	padding-right: 45px;
+	padding-top: 30px;
+	visibility: hidden;
+}
+
+.header > .texttitle > p {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 150%;
+	color: #555;
+}
+
+.bottom_border {
+	-webkit-box-shadow: inset 0 -1px 2px #000000;
+	-moz-box-shadow: inset 0 -1px 2px #000000;
+	box-shadow: inset 0 -1px 2px #000000;
+}
+
+hr.style-two {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*main menu*/
+
+.main_menu {
+	height: 110px;
+	width: 100%;
+	background: #e2e2e2;
+	visibility: hidden;
+}
+
+.nav {
+	
+}
+
+.nav ul {
+	margin: 0 auto;
+	padding-left: -10px;
+	position: relative;
+	left: -40px;
+}
+
+.nav ul li {
+	list-style: none;
+	padding: 30px;
+	margin: 0;
+	float: left;
+	font-family: "Wire One", sans-serif;
+	font-size: 40px;	
+	cursor: pointer;
+	display: none;
+}
+
+.nav ul li:first-child:hover {
+	color: #FF2E12;
+}
+
+.nav ul li:hover {
+	color: #1FAEFF;
+}
+
+.nav ul li:last-child:hover {
+	color: #00C13F;
+}
+
+
+/*content*/
+.content {
+	width: 960px;
+}
+
+.aboutme, .contact {
+	height: 90%;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	top: 15px;
+	background: #fff;
+	display: none;
+	opacity: 0.9;
+}
+
+.portfolio {
+	height: 90%;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+	background: #fff;
+	display: none;
+	opacity: 0.9;
+}
+
+
+/*features*/
+.features {
+}
+
+.features p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px;
+	visibility: hidden;
+}
+
+
+/*footer*/
+
+.footer {
+	visibility: hidden;
+}
+
+.copy {
+	padding: 0;
+	margin: 0;
+	padding: 2px 5px;
+	background: #e2e2e2;
+	color: #666;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+}
+
+.copy a {
+	text-decoration: none;
+	color: #888;
+}
+
+.copy a:hover {
+	color: #222;
+}
